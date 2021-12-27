@@ -2,7 +2,15 @@ import requests
 
 url = "https://api.sendchamp.com/api/v1/sms/send"
 
-payload= "{"to":'["2349039099438"]', "message":"Hello from Olumide Latest","sender_name":"sadiqful"}"
+payload = "{
+    "to": [
+        "2348188469520"
+    ],
+    "message": "Lorem ipsum d, no lele",
+    "sender_name": "Dash",
+    "route": "non_dnd"
+}"
+
 headers = {
   'Accept': 'application/json',
   'Authorization': 'Bearer ACCESS_KEY',
